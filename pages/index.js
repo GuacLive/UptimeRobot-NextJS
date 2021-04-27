@@ -40,14 +40,14 @@ function Home({ title, monitorsSSR }) {
   return (
     <div>
       <Head>
-        <title>Pixel Chat Status</title>
+        <title>guac.live Status</title>
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content={"Pixel Chat Status"} />
         <meta
           property="og:description"
-          content={title ? title : "Check the status of Pixel Chat services."}
+          content={title ? title : "Check the status of guac.live services."}
         />
-        <meta property="og:url" content="https://status.pixelchat.tv" />
+        <meta property="og:url" content="https://status.guac.live" />
         <meta property="og:type" content="website" />
       </Head>
       {!error ? (
@@ -72,8 +72,7 @@ function Home({ title, monitorsSSR }) {
             ))}
           </div>
           <div className="text-center w-full">
-            This page shows the status of all sites & services created by Pixel
-            Dev LLC.
+            This page shows the status of all sites & services created by guac.live.
           </div>
           <div className="text-center w-full">
             This status page is 100% open source{" "}
