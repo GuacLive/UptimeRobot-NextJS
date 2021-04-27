@@ -42,7 +42,7 @@ function Home({ title, monitorsSSR }) {
       <Head>
         <title>guac.live Status</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta property="og:title" content={"Pixel Chat Status"} />
+        <meta property="og:title" content={"guac.live Status"} />
         <meta
           property="og:description"
           content={title ? title : "Check the status of guac.live services."}
